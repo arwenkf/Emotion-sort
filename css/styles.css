@@ -10,7 +10,37 @@ body, h1{
     background-color: pink;
 }
 
-.prefix {
+.question-holder {
+    height: 10rem;
+    display: flex;
     text-align: center;
-    font-size: 1rem;
+    align-items: center;
+}
+
+.answer-container {
+    display: flex;
+    flex-direction: initial;
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+}
+
+.answer-prefix {
+    border-radius: 15px;
+    padding: 1.5rem 2rem;
+    background-color:darkcyan;
+    color:white
+}
+
+.answer-text {
+    padding: 1.5rem;
+    width: 100%;
+}
+
+.answer-container:hover{
+    cursor: pointer;
+    color: rgb(95, 52, 252);
+    margin-left: 1rem;
+    padding: auto;
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
 }
